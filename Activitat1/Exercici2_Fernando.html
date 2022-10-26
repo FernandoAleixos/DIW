@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercici2</title>
+</head>
+<body>
+    <h1>Demana el que et ve de gust</h1>
+    <form action="mailto: comandes@hamburgueseria.com" autocomplete>
+        <div>
+            <p>Selecciona el nombre d'hamburguesa que desitgis:</p>
+
+            <ul>
+                <li>Hamburguesa completa: <input type="number" value="0" min="0" max="10"></li>
+                <li>Hamburguesa de pollastre: <input type="number" value="0" min="0" max="10"></li>
+                <li>Hamburguesa vegetariana: <input type="number" value="0" min="0" max="10"></li>
+                <li>Hamburguesa doble: <input type="number" value="0" min="0" max="10"></li>
+            </ul>
+
+            <label for="text">Escriu les modificacions o preferències sobre la comanda:</label>
+            <br/>
+            <textarea name="text" cols="30" rows="6" placeholder="Si el cogombre no és per a tu digues-nos-ho."></textarea>
+        </div>
+
+        <hr />
+        
+        <h2>Dades de contacte</h2>
+        <div>
+            <label for="nom">Nom:</label>
+            <br/>
+            <input type="text" name="nom" placeholder="Nom" required>    
+
+            <br/>
+
+            <label for="cognoms">Cognoms:</label>
+            <br/>
+            <input type="text" name="cognoms" placeholder="Cognoms" required>
+
+            <br/>
+
+            <label for="telf">Telèfon:</label>
+            <br/>
+            <input type="text" name="telf" placeholder="Telèfon" required>
+
+            <br/>
+
+            <label for="correu">Correu electrònic:</label>
+            <br/>
+            <input type="text" name="correu" required>
+
+            <br/>
+
+            <label for="edat">Ets major d'edat?</label>
+            <select name="edat" required>
+                <option></option>
+                <option value="si">Si</option>
+                <option value="no">No</option>
+            </select>
+        </div>
+
+        <hr/>
+
+        <input type="checkbox" name="ofertes">Vull rebre informació sobre ofertes.
+        <br/>
+        <input type="checkbox" name="condicions" required>Accepto les condicions d'ús del servei.
+        <br/>
+
+        <hr/>
+
+        <input type="reset" name="Esborrar">
+        <input type="submit" name="Acceptar">
+    </form>
+</body>
+</html>
