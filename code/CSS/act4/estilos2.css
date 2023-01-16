@@ -1,0 +1,26 @@
+* {
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+}
+
+h1 {
+    border: solid #00f 0.12rem;
+    padding-left: 0.6rem;
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+}
+
+h2 {
+    border: solid #AAA 0.12rem;
+    padding-left: 0.3rem;
+    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
+}
+
+ul {
+    border: solid #0f0 0.12rem;
+}
+
+li {
+    padding: 0.9rem;
+}

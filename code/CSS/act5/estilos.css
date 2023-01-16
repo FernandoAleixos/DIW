@@ -1,0 +1,23 @@
+html {
+    font-size: 62.5%;
+}
+    
+.background {
+    background-image: url(https://images.pexels.com/photos/1131407/pexels-photo-1131407.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-repeat: no-repeat;
+    border: solid 2px black;
+    background-size: cover;
+}
+
+.transbox {
+    margin: 3rem;
+    border: solid 1px black;
+    background-color: rgba(25, 25, 25, 0.3);
+}
+
+p {
+    margin: 2rem;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+}

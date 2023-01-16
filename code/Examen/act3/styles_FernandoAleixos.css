@@ -1,0 +1,55 @@
+a {
+    background-color: #aaaaaa;
+    width: 80px;
+}
+
+#contingut {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #0000ee;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.esquerra {
+    line-height: 30px;
+    background-color: #eeeeee;
+    height: 515px;
+    width: 100px;
+    padding: 5px;
+    float: left;
+}
+
+section {
+    padding: 10px;
+    float: left;
+    width: 560px;
+    background-color: #aaaaaa;
+}
+
+article {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.dreta {
+    line-height: 20px;
+    padding: 5px;
+    background-color: #eeeeee;
+    height: 515px;
+    width: 100px;
+    float: right;
+}
+
+footer {
+    background-color: #0000ee;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    clear: both;
+}
+

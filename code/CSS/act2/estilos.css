@@ -1,0 +1,32 @@
+strong {
+    color: black;
+}
+
+img {
+    width: 20rem;
+    height: 15rem;
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+.fecha {
+    color: blue;
+}
+
+#izquierda {
+    position: absolute;
+    left: 5%;
+}   
+
+#centro {
+    position: absolute;
+    left: 35%;
+}
+
+#derecha {
+    position: absolute;
+    right: 10%;
+}

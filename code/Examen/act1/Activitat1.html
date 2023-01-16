@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dades de Usuari</title>
+</head>
+<body>
+    <form action="#">
+        <h1>Dades de l'usuari</h1>
+
+        <div style="border: solid 1px black; padding: 10px; margin-bottom: 20px;">
+            <input type="text" name="nom" placeholder="Escriu el nom" required>
+            <br/>
+            <input type="text" name="cognom" placeholder="Escriu el cognom" required>
+            <br/>
+            <input type="email" name="correu" placeholder="Escriu el correu electrònic">
+            <br/>
+            <input type="password" name="contrasenya" placeholder="Escriu la contrasenya">
+
+            <hr/>
+
+            <p>Data de naixement:</p>
+            <input type="date" name="naixement">
+
+            <hr/>
+
+            <p>Génere</p>
+            
+            <input type="radio" value="home">Home
+            <br/>
+            <input type="radio" value="dona">Dona
+        </div>
+
+        <div style="border: solid 1px black; padding: 10px;">
+            <p>Aficions:</p>
+
+            <input type="checkbox" name="esport">Esport
+            <br/>
+            <input type="checkbox" name="cinema">Cinema
+            <br/>
+            <input type="checkbox" name="lectura">Lectura
+            <br/>
+            <input type="checkbox" name="altres">Altres
+
+            <p>Selecciona el teu color preferit: <input type="color" name="color"></p>
+
+            <hr/>
+
+            <p>Quin navegador utilitzes? <input type="text" name="" autocomplete="on"></p>
+        </div>
+
+        <br/>
+        <hr/>
+
+        <p>Observacions: </p>
+        <textarea name="observacions" cols="40" rows="5" placeholder="Aquí l'usuari escriu la seva observació..."></textarea>
+        
+        <hr/>
+
+        <input type="reset" name="Esborrar">
+        <input type="submit" name="Enviar">
+
+        <hr/>
+    </form>
+</body>
+</html>
